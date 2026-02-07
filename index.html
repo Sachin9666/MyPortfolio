@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Gandikota | Creative Developer & Visual Storyteller</title>
+    <meta name="description"
+        content="Cinematic portfolio of Sachin Gandikota, a Full Stack Developer specializing in immersive digital experiences and high-performance applications.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="dark-mode">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-logo">
+            <span>S</span><span>A</span><span>C</span><span>H</span><span>I</span><span>N</span>
+        </div>
+        <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Background Elements -->
+    <div class="bg-gradient"></div>
+    <div class="noise-overlay"></div>
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">SACHIN</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i data-lucide="moon"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-greeting">// HELLO, WORLD</span>
+                    <h1 class="hero-name">SACHIN <br><span class="accent-text">GANDIKOTA</span></h1>
+                    <h2 class="hero-role">
+                        <span id="typing-text"></span>
+                        <span class="cursor">_</span>
+                    </h2>
+                    <p class="hero-tagline">Architecting high-scale digital solutions with a focus on performance,
+                        scalability, and immersive user experiences.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Discover My Work</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <span>SCROLL TO EXPLORE</span>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">01. <span class="accent-text">The Origin</span></h2>
+                <div class="about-grid">
+                    <div class="about-card-wrapper">
+                        <div class="about-card">
+                            <div class="card-front">
+                                <img src="assets/Sachinport.png" alt="Sachin Gandikota">
+                            </div>
+                            <div class="card-back">
+                                <div class="card-back-content">
+                                    <h3>THE ARCHITECT</h3>
+                                    <p>Sachin Gandikota</p>
+                                    <div class="social-links">
+                                        <a href="https://github.com/Sachin9666" target="_blank" class="magnetic"><i
+                                                data-lucide="github"></i></a>
+                                        <a href="https://linkedin.com/in/sachin-gandikota" target="_blank"
+                                            class="magnetic"><i data-lucide="linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-bio">
+                            <p>I am a <span class="highlight-text">Full Stack Architect</span> obsessed with the
+                                intersection of performance and poetry. My work bridges the gap between complex backend
+                                logic and breathtaking frontend experiences.</p>
+                            <p>With a foundation in <span class="highlight-text">scalable systems</span> and a heart for
+                                design, I build digital products that don't just work—they resonate.</p>
+                        </div>
+
+                        <div class="info-cards-grid">
+                            <div class="info-card">
+                                <div class="info-icon"><i data-lucide="briefcase"></i></div>
+                                <div class="info-text">
+                                    <h4>Experience</h4>
+                                    <p>2+ Years</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon"><i data-lucide="code-2"></i></div>
+                                <div class="info-text">
+                                    <h4>Stack</h4>
+                                    <p>MERN</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon"><i data-lucide="rocket"></i></div>
+                                <div class="info-text">
+                                    <h4>Delivery</h4>
+                                    <p>5+ Projects</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon"><i data-lucide="award"></i></div>
+                                <div class="info-text">
+                                    <h4>Status</h4>
+                                    <p>Open to Build</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section alternate-bg">
+            <div class="container">
+                <h2 class="section-title">02. <span class="accent-text">Arsenal</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>React / Next.js</span><span>95%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>TypeScript</span><span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Tailwind</span><span>92%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="92%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Node.js / Express</span><span>88%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>MongoDB / SQL</span><span>85%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>REST</span><span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Infrastructure</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>GitHub collaborations</span><span>90%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Cl / CD</span><span>85%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Git</span><span>95%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">03. <span class="accent-text">Selected Work</span></h2>
+                    <div class="filter-btns">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="web">Web</button>
+                        <button class="filter-btn" data-filter="app">Mobile</button>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ffcb5d215357795.6769ce44b56e3.png"
+                                alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://rental-cars-dealership.vercel.app" target="_blank"
+                                        class="project-link"><i data-lucide="external-link"></i></a>
+                                    <a href="https://github.com/Sachin9666/RentalCars-Dealership" target="_blank"
+                                        class="project-link"><i data-lucide="github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-tech">React • Express • Nodejs • MongoDB</p>
+                            <h3>LuxDrive</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="project-img">
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.uJY3EKzzjg29TuKIoPfgAQHaEi?pid=Api&P=0&h=180"
+                                alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://sachin9666.github.io/PortfoliGo/" target="_blank"
+                                        class="project-link"><i data-lucide="external-link"></i></a>
+                                    <a href="https://github.com/Sachin9666/PortfoliGo" target="_blank"
+                                        class="project-link"><i data-lucide="github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-tech">HTML • CSS • JS</p>
+                            <h3>PortfoliGo</h3>
+                        </div>
+                    </div>
+
+                    <!-- Project 2
+                    <div class="project-card" data-category="app">
+                        <div class="project-img">
+                            <img src="https://images.unsplash.com/photo-1551288049-bbbda536ad34?auto=format&fit=crop&q=80&w=800"
+                                alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i data-lucide="external-link"></i></a>
+                                    <a href="#" class="project-link"><i data-lucide="github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <p class="project-tech">Next.js • Tailwind • Prisma</p>
+                            <h3>Zenith Hub</h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Journey Section -->
+        <section id="experience" class="section alternate-bg">
+            <div class="container">
+                <h2 class="section-title">04. <span class="accent-text">The Journey</span></h2>
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 - PRESENT</span>
+                            <h3>Frontend Developer Intern</h3>
+                            <p>Healthletic Lifestyle</p>
+                            <p>A Frontend Developer who created many pages for Company's Website.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - PRESENT</span>
+                            <h3>CSE Student</h3>
+                            <p>Vignan's Lara Institute of Technology and Science</p>
+                            <p>Aspiring to become a Full Stack Developer/Software Engineer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="section">
+            <div class="container">
+                <h2 class="section-title">05. <span class="accent-text">Impact</span></h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="5">0</h3>
+                        <p>PROJECTS</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="2">0</h3>
+                        <p>Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="45">0</h3>
+                        <p>COMMITS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">05. <span class="accent-text">Connect</span></h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Interested in starting a project?</h3>
+                        <p>I'm always open to discussing new opportunities and creative collaborations.</p>
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i data-lucide="mail"></i>
+                                <p>gandikotasachin@gmail.com</p>
+                            </div>
+                            <div class="contact-method">
+                                <i data-lucide="map-pin"></i>
+                                <p>Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Project Details</label>
+                            <textarea rows="4" required placeholder="Tell me about your vision..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Execute Message</span>
+                            <i data-lucide="send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">Ready to build something <span class="accent-text">extraordinary?</span></h2>
+                    <p class="cta-text">I'm currently available for full-time roles and high-impact freelance projects.
+                    </p>
+                    <a href="#contact" class="btn btn-primary magnetic" style="margin: 0 auto;">
+                        <span>Start A Conversation</span>
+                        <i data-lucide="send"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo magnetic">SACHIN.</a>
+                    <p>Designed and engineered with attention to every pixel. Building a faster, more beautiful web, one
+                        project at a time.</p>
+                </div>
+                <div class="footer-nav-groups">
+                    <div class="footer-nav-group">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Work</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-nav-group">
+                        <h4>Social</h4>
+                        <a href="https://github.com/Sachin9666" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/sachin-gandikota" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SACHIN GANDIKOTA. </i></p>
+                <div class="footer-utils">
+                    <!-- Footer utility icons can go here -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top" class="magnetic">
+        <i data-lucide="arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
